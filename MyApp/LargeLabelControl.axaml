@@ -1,0 +1,30 @@
+<Styles xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="Using:MyApp">
+<Design.PreviewWith>
+	<StackPanel>
+		<controls:LargeLabelControl />
+	</StackPanel>
+	
+</Design.PreviewWith>
+
+	<Style Selector="controls|LargeLabelControl">
+
+		
+		<Setter Property="Background" Value="{DynamicResource MidBlueBrush"></Setter>
+		<Setter Property="Foreground" Value="White"></Setter>
+		
+		<Setter Property="Template">
+			<ControlTemplate>
+				<Border Background="}">
+					<StackPanel>
+						<Label HorizontalAlignment="Center" Padding="0" FontSize="22" Content="-31.3 LUFS"/>
+						<Label HorizontalAlignment="Center" Padding="0" FontSize="11" Content="SHORT TERM"/>
+					</StackPanel>
+				</Border>
+
+			</ControlTemplate>
+		</Setter>
+	</Style>
+</Styles>
+   
