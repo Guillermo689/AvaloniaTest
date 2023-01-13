@@ -22,6 +22,10 @@
 				<Rectangle Grid.Column="3" Fill="Beige" Width="40">
 				</Rectangle>
 
+<<<<<<< HEAD
+=======
+				<Rectangle Grid.Column="4" Fill="Yellow" Width="40"></Rectangle>
+>>>>>>> a7fcbf24e0ac06be9585665b1aba2df44dbaa7c9
 			</Grid>
 		</StackPanel>
 

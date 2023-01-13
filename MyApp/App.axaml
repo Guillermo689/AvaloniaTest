@@ -2,5 +2,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="MyApp.App">
     <Application.Styles>
+<<<<<<< HEAD
+=======
+        <FluentTheme Mode="Light"/>
+>>>>>>> a7fcbf24e0ac06be9585665b1aba2df44dbaa7c9
     </Application.Styles>
 </Application>
